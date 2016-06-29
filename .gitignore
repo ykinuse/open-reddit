@@ -33,8 +33,17 @@ proguard/
 captures/
 
 # Intellij
+.idea/
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
 *.iml
-.idea/workspace.xml
+*.iws
+*.ipr
+*~
+*.swp
 
 # Keystore files
 *.jks
